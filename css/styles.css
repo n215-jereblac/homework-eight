@@ -4,12 +4,92 @@
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   height: 100%;
+  font-family: Arial;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   margin-bottom: 16px;
+}
+
+nav {
+  width: 100%;
+  height: 80px;
+  background-color: #6f4e37;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.homePage {
+  margin: 0 auto;
+  width: 90%;
+  min-height: 500px;
+}
+.homePage .hero {
+  width: 100%;
+  height: 350px;
+  color: white;
+  font-size: 50px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url(../images/home.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.homePage .homeText {
+  width: 100%;
+}
+.homePage .homeText h1 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 45px;
+  color: #6f4e37;
+}
+.homePage .homeText .homeBox {
+  margin: 0 auto;
+  width: 90%;
+  height: 300px;
+  margin-top: 25px;
+  display: flex;
+}
+.homePage .homeText .homeBox .boxPic {
+  width: 30%;
+  height: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/home2.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.homePage .homeText .homeBox .boxText {
+  width: 55%;
+  font-size: 20px;
+  margin-left: 25px;
+  margin-top: 80px;
+}
+
+footer {
+  height: 75px;
+  background-color: #6f4e37;
+  color: white;
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 3px;
 }
 
 /*# sourceMappingURL=styles.css.map */
