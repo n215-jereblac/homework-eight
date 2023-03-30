@@ -81,6 +81,34 @@ nav a {
   margin-top: 80px;
 }
 
+.menuPage {
+  margin: 0 auto;
+  width: 90%;
+  min-height: 500px;
+}
+.menuPage .hero {
+  width: 100%;
+  height: 350px;
+  color: white;
+  font-size: 50px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url(../images/menu.jpeg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menuText {
+  width: 100%;
+}
+.menuText h1 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 45px;
+  color: #6f4e37;
+}
+
 footer {
   height: 75px;
   background-color: #6f4e37;
