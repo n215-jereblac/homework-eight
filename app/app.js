@@ -80,7 +80,15 @@ var contactPage = `<div class="contactPage">
 <div class="hero">
     <h1>Contact</h1>
 </div>
+<div class="contactText">
 <h1>Get in touch!</h1>
+<form action="contact">
+<input type="text" placeholder="Name...">
+<input type="text" placeholder="Email...">
+<input type="text" placeholder="Phone number...">
+<div class="submit">SUBMIT</div>
+</form>
+</div>
 </div>`
 
 function initListeners() {

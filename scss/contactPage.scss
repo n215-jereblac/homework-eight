@@ -1,0 +1,54 @@
+.contactPage {
+  margin: 0 auto;
+  width: 90%;
+  min-height: 500px;
+  .hero {
+    width: 100%;
+    height: 350px;
+    color: white;
+    font-size: 50px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)),
+      url(../images/contact.jpeg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .contactText {
+    h1 {
+      text-align: center;
+      margin-top: 50px;
+      margin-bottom: 35px;
+      font-size: 45px;
+      color: #6f4e37;
+    }
+    form {
+      width: 100%;
+      //   background-color: rgb(250, 215, 248);
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      input {
+        margin: 0 auto;
+        margin-bottom: 30px;
+        height: 60px;
+        width: 50%;
+        border: 2px solid #6f4e37;
+        padding: 20px;
+        font-size: 20px;
+      }
+      .submit {
+        margin: 0 auto;
+        margin-top: 20px;
+        height: 60px;
+        width: 150px;
+        background-color: #6f4e37;
+        border-radius: 35px;
+        padding-top: 20px;
+        color: white;
+        cursor: pointer;
+      }
+    }
+  }
+}
