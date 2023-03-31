@@ -51,14 +51,29 @@
       }
       .boxText {
         width: 55%;
-        font-size: 20px;
+        font-size: 18px;
         margin-left: 25px;
-        margin-top: 80px;
+        margin-top: 100px;
       }
       .two {
         width: 70%;
         text-align: right;
         margin-right: 25px;
+      }
+    }
+  }
+}
+
+@media (max-width: 850px) {
+  .aboutPage {
+    .aboutText {
+      .aboutBox {
+        .boxText {
+          font-size: 17px;
+        }
+        .two {
+          font-size: 15px;
+        }
       }
     }
   }

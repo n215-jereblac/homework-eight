@@ -76,11 +76,19 @@ nav a {
 }
 .homePage .homeText .homeBox .boxText {
   width: 55%;
-  font-size: 20px;
+  font-size: 18px;
   margin-left: 25px;
-  margin-top: 80px;
+  margin-top: 100px;
 }
 
+@media (max-width: 850px) {
+  .homePage .hero h1 {
+    font-size: 65px;
+  }
+  .homePage .homeText .homeBox .boxText {
+    font-size: 15px;
+  }
+}
 .menuPage {
   margin: 0 auto;
   width: 90%;
@@ -171,9 +179,9 @@ nav a {
 }
 .aboutPage .aboutText .aboutBox .boxText {
   width: 55%;
-  font-size: 20px;
+  font-size: 18px;
   margin-left: 25px;
-  margin-top: 80px;
+  margin-top: 100px;
 }
 .aboutPage .aboutText .aboutBox .two {
   width: 70%;
@@ -181,6 +189,14 @@ nav a {
   margin-right: 25px;
 }
 
+@media (max-width: 850px) {
+  .aboutPage .aboutText .aboutBox .boxText {
+    font-size: 17px;
+  }
+  .aboutPage .aboutText .aboutBox .two {
+    font-size: 15px;
+  }
+}
 .contactPage {
   margin: 0 auto;
   width: 90%;

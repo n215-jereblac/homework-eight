@@ -64,7 +64,7 @@ var aboutPage = `<div class="aboutPage">
 <div class="aboutBox">
     <div class="boxPic"></div>
     <div class="boxText">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, expedita ratione quasi consequatur dignissimos, harum doloribus sint aspernatur numquam ipsa atque assumenda voluptas laboriosam accusantium ex recusandae possimus nobis perspiciatis iure minima minus dolorem explicabo! Illum, reiciendis asperiores rerum dolore accusantium maiores velit, eaque, laboriosam doloribus consequatur neque corrupti aut.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, expedita ratione quasi consequatur dignissimos, harum doloribus sint aspernatur numquam ipsa atque assumenda voluptas laboriosam accusantium ex recusandae.
     </div>
 </div>
 <div class="aboutBox">
