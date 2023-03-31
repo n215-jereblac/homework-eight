@@ -13,7 +13,47 @@ var homePage = `<div class="homePage">
 </div>
 </div>`
 
-var menuPage = ``
+var menuPage = `<div class="menuPage">
+<div class="hero">
+    <h1>Menu</h1>
+</div>
+<div class="menuText">
+<h1>Check out our refreshing treats!</h1>
+<div class="menuBox">
+    <div class="drinks">
+        <h1>DRINKS</h1>
+        <h2>Coffee(s)</h2>
+        <p>Latte</p>
+        <p>Mocha</p>
+        <p>Americano</p>
+        <p>Frappechino</p>
+        <p>Cappuccino</p>
+        <h2>Hot drinks(s)</h2>
+        <p>Hot chocolate</p>
+        <h2>Tea(s)</h2>
+        <p>Green</p>
+        <p>Black</p>
+        <p>Earl gray</p>
+        <p>Chamomile</p>
+        <p>Oolong</p>
+    </div>
+    <div class="treats">
+        <h1>TREATS</h1>
+        <h2>Bakery</h2>
+        <p>Bagel</p>
+        <p>Blueberry muffin</p>
+        <p>Chocolate chip muffin</p>
+        <p>Blueberry scone</p>
+        <h2>Dessert(s)</h2>
+        <p>Glazed donut</p>
+        <p>Brownie</p>
+        <p>Sugar cookie</p>
+        <p>Frosted cookie</p>
+        <p>Chocolate chip cookie</p>
+    </div>
+</div>
+</div>
+</div>`
 
 var aboutPage = `<div class="aboutPage">
 <div class="hero">
@@ -42,6 +82,6 @@ function changePage(pageContent){
 }
 
 $(document).ready(function () {
-    // changePage("homePage");
+    changePage("homePage");
     initListeners();
 });

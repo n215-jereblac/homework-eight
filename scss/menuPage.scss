@@ -24,4 +24,21 @@
     font-size: 45px;
     color: #6f4e37;
   }
+  h2 {
+    text-align: center;
+    margin-top: 30px;
+    color: #6f4e37;
+  }
+  .menuBox {
+    display: flex;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+    .drinks {
+      width: 50%;
+    }
+  }
+  .treats {
+    width: 50%;
+  }
 }
